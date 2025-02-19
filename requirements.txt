@@ -1,0 +1,14 @@
+vllm==0.5.5
+transformers_stream_generator
+
+# hebo independents
+numpy>=1.16,<1.25
+pandas>=1.0.1
+pymoo>=0.6.0
+scikit-learn>=0.22
+gpytorch>=1.4.0
+GPy>=1.9.9
+catboost>=0.24.4
+xgboost
+lightgbm
+disjoint-set
