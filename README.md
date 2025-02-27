@@ -15,18 +15,15 @@ The shell script `tune_entry.sh` is used to reproduce the main results in the pa
 
 The python scripts in the directory `clients` are forked form vllm, involving `api_server.py`, `backend_request_func.py` and `benchmark_serving.py`, which are used to initialize server, client and benchmarking requsting, respectively.
 
-
-Also, we implement hidden and hard constraits in the BO search based on HEBO, which is in `hebo` directory. Specifically, the hidden and hard constraits are incorporated in acquisition functions, i.e., `/hebo/acquisitions/acq.py`.
+Also, we implement hidden and hard constraits in the BO search based on HEBO, which is in `hebo` directory. Specifically, the hidden and hard constraints are incorporated in acquisition functions and the optimizers, i.e., `/hebo/acquisitions/acq.py` and `/hebo/optimizers/util.py`.
 
 ### Citation
 ```latex
-@article{Cheng2024TowardsSL,
-  title={Towards SLO-Optimized LLM Serving via Automatic Inference Engine Tuning},
-  author={Ke Cheng and Zhi Wang and Wen Hu and Tiannuo Yang and Jianguo Li and Sheng Zhang},
-  journal={ArXiv},
-  year={2024},
-  volume={abs/2408.04323},
-  url={https://api.semanticscholar.org/CorpusID:271768955}
+@inproceedings{cheng2025scoot,
+  title={SCOOT: SLO-Oriented Performance Tuning for LLM Inference Engines},
+  author={Cheng, Ke and Wang, Zhi and Hu, Wen and Yang, Tiannuo and Li, Jianguo and Zhang, Sheng},
+  booktitle={Proceedings of the ACM Web Conference 2025},
+  year={2025}
 }
 ```
 
