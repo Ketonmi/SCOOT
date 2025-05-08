@@ -22,8 +22,10 @@ Also, we implement hidden and hard constraits in the BO search based on HEBO, wh
 @inproceedings{cheng2025scoot,
   title={SCOOT: SLO-Oriented Performance Tuning for LLM Inference Engines},
   author={Cheng, Ke and Wang, Zhi and Hu, Wen and Yang, Tiannuo and Li, Jianguo and Zhang, Sheng},
-  booktitle={Proceedings of the ACM Web Conference 2025},
-  year={2025}
+  booktitle={Proceedings of the ACM on Web Conference 2025},
+  pages={829--839},
+  year={2025},
+  publisher={Association for Computing Machinery}
 }
 ```
 
